@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px     ;
+    padding: 0px;
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color:#325aa8;
+    height: 80px;
+    text-align: center;
+}
+
+header span{
+   font-size: 60px;
+     color: white;  
+     font-family: "Yesteryear", cursive;
+}
+
+.secao01, .especialidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box-img{
+    justify-content: center;
+    display: flex;
+    width: 35%;
+}
+
+.box-txt{
+    display: flex;
+    flex-flow: row wrap;
+    width: 35%;
+    }
+
+    .box-txt span{
+        color: gray;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    .box-txt h2{
+        font-family: "DM Sans", sans-serif;
+        font-size: 80px;
+        color: black;
+        font-weight: 800px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        line-height: 70px;
+         }
+
+    .box-txt p{
+        color: gray;
+    }
+
+    .botom01{
+        background-color: rgb(7, 7, 135);
+        padding: 15px 25px;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        transition: 0.5s all;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+
+    .botom01:hover{
+        background: rgb(9, 120, 120);
+        font-size: 18px;
+    }
+
+   .box-item{
+    width: 25%;
+    height: 380px;
+    background: bisque;
+    margin: 5px;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+   }
+   
+   footer{ text-align: center;
+   }
+    
